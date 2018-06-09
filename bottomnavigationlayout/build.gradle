@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-version = "1.0.0"
+version = "1.0.2"
 group = "xt.yungtat"
 
 android {
@@ -33,9 +33,9 @@ bintray {
     key = properties.getProperty("BINTRAY_KEY")   //读取 local.properties 文件里面的 bintray.apikey
     configurations = ['archives']
     pkg {
-        repo = "android"
+        repo = "Android"
         name = "bottomnavigationlayout"    //发布到JCenter上的项目名字，必须填写
-        desc = "底部导航栏"    //项目描述
+        description = "Android bottom navigation bar"    //项目描述
         websiteUrl = rootProject.ext.siteUrl
         vcsUrl = rootProject.ext.gitUrl
         licenses = ["Apache-2.0"]

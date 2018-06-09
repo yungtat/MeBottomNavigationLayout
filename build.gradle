@@ -32,10 +32,11 @@ ext {
     siteUrl = 'http://www.yungtat.com'
     gitUrl = 'https://github.com/yungtat/MeBottomNacigationLayout.git'
     group = "xt.yungtat"
-    version = "1.0.0"
+    version = "1.0.1"
     id = 'bottomnavigationlayout'
     name = 'BottomNavigationLayout'
     email =  'yungtatop@gmail.com'
     packaging = 'aar'
+    desc='Android 底部导航栏'
 
 }
