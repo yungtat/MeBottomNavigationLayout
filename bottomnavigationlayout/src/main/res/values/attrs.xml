@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--底部导航栏-->
+    <declare-styleable name="BottomNavigationLayout">
+        <attr name="barHeight" format="dimension"/> <!--导航栏高度-->
+        <attr name="barBackground" format="color"/>  <!--导航栏背景-->
+        <attr name="barInterval" format="dimension"/><!--上下距离-->
+        <attr name="barTitleSize" format="dimension"/>
+        <attr name="barTitleColor" format="color"/>
+        <attr name="barTitleSelectColor" format="color"/>
+        <attr name="barBadgeTxtColor" format="color"/>
+        <attr name="barBadgeTxtSize" format="dimension"/>
+        <attr name="barBadgeBackgroundColor" format="color"/>
+        <attr name="barBigHeight" format="dimension"/>
+        <attr name="barBigMargin" format="dimension"/>
+        <attr name="barIconTitleMargin" format="dimension"/>
+    </declare-styleable>
+    <!--底部导航栏END-->
+
+
+</resources>

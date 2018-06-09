@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--底部导航栏-->
+    <item name="badge_tv" type="id" />
+    <item name="tab_iv" type="id" />
+    <item name="tab_tv" type="id" />
+    <item name="tab_tv_nor" type="id" />
+    <item name="tab_bigger_tv" type="id"/>
+    <item name="tab_bg" type="id" />
+    <item name="tab_iv_nor" type="id"/>
+    <item name="icon_layout" type="id" />
+    <item name="tab_big_bg" type="id"/>
+
+
+</resources>
